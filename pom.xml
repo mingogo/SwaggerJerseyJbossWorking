@@ -41,7 +41,7 @@
             <allowDuplicateFragmentNames>true</allowDuplicateFragmentNames>
           </webAppConfig>
           <webAppSourceDirectory>target/${project.artifactId}-${project.version}</webAppSourceDirectory>
-          <webDefaultXml>${project.basedir}/conf/jetty/webdefault.xml</webDefaultXml>
+          <!--<webDefaultXml>${project.basedir}/conf/jetty/webdefault.xml</webDefaultXml>-->
           <stopPort>8079</stopPort>
           <stopKey>stopit</stopKey>
           <connectors>
